@@ -124,7 +124,7 @@ Using a graph object of class `dgr_graph`, create a selection of nodes that have
 
 **`graph`** a graph object of class `dgr_graph`.
 
-**`expressions`** one or more expressions for filtering of nodes by degree values. Use a combination of a degree type (`deg` for total degree, `indeg` for in-degree, and `outdeg` for out-degree) with a comparison operator and values for comparison (e.g., use \code{"deg >= 2"} to select nodes with a degree greater than or equal to 2).
+**`expressions`** one or more expressions for filtering of nodes by degree values. Use a combination of a degree type (`deg` for total degree, `indeg` for in-degree, and `outdeg` for out-degree) with a comparison operator and values for comparison (e.g., use `"deg >= 2"` to select nodes with a degree greater than or equal to 2).
 
 **`set_op`** the set operation to perform upon consecutive selections of graph nodes. This can either be as a `union` (the default), as an intersection of selections with `intersect`, or, as a `difference` on the previous selection, if it exists.
 

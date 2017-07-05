@@ -6,9 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>The DiagrammeR Package</title>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="Contains information on how to use the DiagrammeR package for R.">
-  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.3.21 and GitBook 2.6.7">
 
   <meta property="og:title" content="The DiagrammeR Package" />
   <meta property="og:type" content="book" />
@@ -26,7 +25,7 @@
 <meta name="author" content="Richard Iannone">
 
 
-<meta name="date" content="2017-04-14">
+<meta name="date" content="2017-05-24">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -35,7 +34,6 @@
   
 <link rel="prev" href="fcns-traversals.html">
 <link rel="next" href="fcns-modification.html">
-
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -100,6 +98,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </head>
 
 <body>
+
 
 
   <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
@@ -818,7 +817,7 @@ PARAMETERS
 <p><strong><code>graph</code></strong> a graph object of class <code>dgr_graph</code>.</p>
 <p><strong><code>nodes</code></strong> an optional vector of node IDs to consider for Dice similarity scores. If notsupplied, then similarity scores will be provided for every pair of nodes in the graph.</p>
 <p><strong><code>direction</code></strong> using <code>all</code> (the default), the function will ignore edge direction when determining scores for neighboring nodes. With <code>out</code> and <code>in</code>, edge direction for neighboring nodes will be considered.</p>
-<p><strong><code>round_to</code></strong> the maximum number of decimal places to retain for the Dice similarity coefficient scores. The default value is .</p>
+<p><strong><code>round_to</code></strong> the maximum number of decimal places to retain for the Dice similarity coefficient scores. The default value is <code>3</code>.</p>
 </div>
 <div id="get_periphery" class="section level2">
 <h2><span class="header-section-number">8.32</span> <code>get_periphery()</code></h2>
@@ -1000,7 +999,7 @@ PARAMETERS
 </div>
 <div id="get_w_connected_cmpts" class="section level2">
 <h2><span class="header-section-number">8.43</span> <code>get_w_connected_cmpts()</code></h2>
-<p><img src="diagrams/inspection/get_w_connected_cmpts.svg"></p>
+<p><img src="diagrams/inspection/get_W_connected_cmpts.svg"></p>
 <h4>
 <em>Get all nodes associated with connected components</em>
 </h4>
@@ -1051,8 +1050,9 @@ PARAMETERS
         </div>
       </div>
 <a href="fcns-traversals.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="fcns-modification.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
-
+<a href="fcns-modification.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
@@ -1073,7 +1073,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": null,
+"download": ["The-DiagrammeR-Package.pdf", "The-DiagrammeR-Package.epub"],
 "toc": {
 "collapse": "section"
 }

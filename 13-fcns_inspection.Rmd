@@ -484,7 +484,7 @@ Get the Dice similiarity coefficient scores for one or more nodes in a graph.
 
 **`direction`** using `all` (the default), the function will ignore edge direction when determining scores for neighboring nodes. With `out` and `in`, edge direction for neighboring nodes will be considered.
 
-**`round_to`** the maximum number of decimal places to retain for the Dice similarity coefficient scores. The default value is \code{3}.
+**`round_to`** the maximum number of decimal places to retain for the Dice similarity coefficient scores. The default value is `3`.
 
 ## `get_periphery()`
 

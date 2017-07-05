@@ -6,9 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>The DiagrammeR Package</title>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="Contains information on how to use the DiagrammeR package for R.">
-  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.3.21 and GitBook 2.6.7">
 
   <meta property="og:title" content="The DiagrammeR Package" />
   <meta property="og:type" content="book" />
@@ -26,7 +25,7 @@
 <meta name="author" content="Richard Iannone">
 
 
-<meta name="date" content="2017-04-14">
+<meta name="date" content="2017-05-24">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -35,7 +34,6 @@
   
 <link rel="prev" href="fcns-creation.html">
 <link rel="next" href="fcns-traversals.html">
-
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -100,6 +98,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </head>
 
 <body>
+
 
 
   <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
@@ -446,7 +445,7 @@ DESCRIPTION
 PARAMETERS
 </h5>
 <p><strong><code>graph</code></strong> a graph object of class <code>dgr_graph</code>.</p>
-<p><strong><code>expressions</code></strong> one or more expressions for filtering of nodes by degree values. Use a combination of a degree type (<code>deg</code> for total degree, <code>indeg</code> for in-degree, and <code>outdeg</code> for out-degree) with a comparison operator and values for comparison (e.g., use  to select nodes with a degree greater than or equal to 2).</p>
+<p><strong><code>expressions</code></strong> one or more expressions for filtering of nodes by degree values. Use a combination of a degree type (<code>deg</code> for total degree, <code>indeg</code> for in-degree, and <code>outdeg</code> for out-degree) with a comparison operator and values for comparison (e.g., use <code>&quot;deg &gt;= 2&quot;</code> to select nodes with a degree greater than or equal to 2).</p>
 <p><strong><code>set_op</code></strong> the set operation to perform upon consecutive selections of graph nodes. This can either be as a <code>union</code> (the default), as an intersection of selections with <code>intersect</code>, or, as a <code>difference</code> on the previous selection, if it exists.</p>
 </div>
 <div id="select_edges_by_edge_id" class="section level2">
@@ -536,8 +535,9 @@ PARAMETERS
         </div>
       </div>
 <a href="fcns-creation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="fcns-traversals.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
-
+<a href="fcns-traversals.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
@@ -558,7 +558,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": null,
+"download": ["The-DiagrammeR-Package.pdf", "The-DiagrammeR-Package.epub"],
 "toc": {
 "collapse": "section"
 }
